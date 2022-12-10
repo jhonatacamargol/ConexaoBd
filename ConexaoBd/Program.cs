@@ -11,7 +11,7 @@ namespace ConexaoBd
     {
         static void Main(string[] args)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-AL96SA4E\SQLEXPRESS;integrated security=SSPI;initial Catalog=db_hotel");
+            SqlConnection con = new SqlConnection("");
             con.Open();
 
             /* string strUp = "update tbl_Cliente set nm_cli = 'Fabio Algusto'where cd_cli = 1";
